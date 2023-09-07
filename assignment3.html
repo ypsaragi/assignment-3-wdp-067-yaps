@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data COVID-19</title>
+</head>
+<body>
+    <h1>COVID-19 TRACKER</h1>
+    <form id="covid-form">
+        <label for="country">Pilih Negara:</label>
+        <input type="text" id="country" placeholder="Masukkan nama negara" required>
+        <button type="submit">Get Data</button>
+    </form>
+    <div id="covid-data">
+        <h2>Data COVID-19 untuk <span id="country-name"></span></h2>
+        <ul>
+            <td>Active Cases: <span id="active-cases"></span></td><br>
+            <td>New Cases: <span id="new-cases"></span></td><br>
+            <td>Recovered Cases: <span id="recovered-cases"></span></td><br>
+            <td>Total Cases: <span id="total-cases"></span></td><br>
+            <td>Total Deaths: <span id="total-deaths"></span></td><br>
+            <td>Total Tests: <span id="total-tests"></span></td><br>
+            <td>Waktu Akses: <span id="access-time"></span></td>
+        </ul>
+    </div>
+
+    <script src="assignment3.js"></script>
+</body>
+</html>
